@@ -1,0 +1,25 @@
+#ignore all files in the build directory
+bin/
+obj/
+
+#ignore Debug directory
+Debug/
+
+#ignore unwanted directories
+/_UpgradeReport_Files/
+/TestResults/
+/ipch/
+/SSRSSvcTest/
+/SPListTest*/
+/.vs/
+/Backup/
+
+#ignore zip files
+*.zip
+
+#ignore dll files
+*.dll
+
+#
+/UpgradeLog*.*
+/pingme.txt

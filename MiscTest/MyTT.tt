@@ -1,0 +1,14 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ output extension=".txt" #>
+Hello
+<#
+string[] ss = {"richard", "michael", "vesta"};
+foreach(string s in ss) {
+  WriteLine(s);
+}
+for (int i = 0;i<4;i++) {
+#>
+ Hi
+<#
+}
+#>
