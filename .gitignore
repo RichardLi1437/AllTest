@@ -13,9 +13,21 @@ Debug/
 /SPListTest*/
 /.vs/
 /Backup/
+/ADOTest/
+/DataGridTest/
+/DataGridViewTest/
+/DBTest/
+/DialogResultTest/
+/FormDesigner*/
+/GridRowTest/
 
 #ignore zip files
 *.zip
+
+*.suo
+*.ncb
+*.sdf
+*.vsmdi
 
 #ignore dll files
 *.dll
